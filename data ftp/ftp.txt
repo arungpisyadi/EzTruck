@@ -1,0 +1,6 @@
+FTP host name 	suksesputra.comule.com
+FTP user name 	a3296501
+FTP password 	******
+Folder to upload files 	public_html
+Forgot FTP password? 	Change account password
+Recommended FTP clients 	SmartFTP or FileZilla

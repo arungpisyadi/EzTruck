@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_viewemp" value="name:kary_id;datatype:int,name:kary_nama_1;datatype:string,name:kary_nama_2;datatype:string,name:kary_alamat_1;datatype:string,name:kary_alamat_2;datatype:string,name:kary_tgl_lahir;datatype:date,name:kary_no_ktp;datatype:string,name:kary_ktp_aktif;datatype:date,name:kary_no_sim;datatype:string,name:kary_jenis_sim;datatype:string,name:kary_sim_aktif;datatype:date,name:kary_telp;datatype:string,name:kary_hp;datatype:string,name:kary_pos;datatype:string" />
+	<infoitem key="UD_VERSION" value="name:main_version;datatype:int,name:sub_version;datatype:int,name:ch_version;datatype:int" />
+	<infoitem key="UD_license" value="name:idlicense;datatype:int,name:customer;datatype:string,name:ser_no;datatype:string,name:type;datatype:string" />
+</info>

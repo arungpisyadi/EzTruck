@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp\htdocs\EzTruck\Eztruck.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/EzTruck/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/EzTruck/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><codestructure>
+		<phptree>
+			<treenode node="./mysql.php;Php:Php Include;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f10;59;21;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Connections/myconn.php;Php:Php Include;C:\xampp\htdocs\EzTruck\header.php;f20;0;42;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="dbconn.php;Php:Php Include;Codelobster1.php;f9;3;19;3;;C:\xampp\htdocs\EzTruck\instal\index.php;f10;2;20;2;;C:\xampp\htdocs\EzTruck\master.php;f9;1;19;1;;C:\xampp\htdocs\EzTruck\login\demo.php;f9;4;19;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="footer.php;Php:Php Include;C:\xampp\htdocs\EzTruck\dateadd.php;f63;41;73;41;;C:\xampp\htdocs\EzTruck\index.php;f63;41;73;41;;C:\xampp\htdocs\EzTruck\master.php;f63;30;73;30;;C:\xampp\htdocs\EzTruck\date add.php;f63;41;73;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="functions.php;Php:Php Include;C:\xampp\htdocs\EzTruck\login\demo.php;f9;5;22;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="header.php;Php:Php Include;C:\xampp\htdocs\EzTruck\dateadd.php;f49;20;59;20;;C:\xampp\htdocs\EzTruck\index.php;f49;21;59;21;;C:\xampp\htdocs\EzTruck\master.php;f49;20;59;20;;C:\xampp\htdocs\EzTruck\date add.php;f49;20;59;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="instal/dbconn.php;Php:Php Include;C:\xampp\htdocs\EzTruck\createdb.php;f9;3;26;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="login/demo.php;Php:Php Include;C:\xampp\htdocs\EzTruck\header.php;f18;27;32;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="MySqlConnection;Php:Class Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f0;50;1;410;;;;vpos;;v;;r;;d0,51;;b0,0;;m">
+				<treenode node="Close;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;116;2;126;;;;vpos;;v;;r;;d1,117;;b0,0;;m">
+				</treenode>
+				<treenode node="ExecuteSP;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;305;2;308;;;;vpos;;v;;r;;d1,306;;b0,0;;maProcStatement;;pTimeOut;;pParameters;;p">
+					<treenode node="aProcStatement;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f20;305;35;305;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="Parameters;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f47;305;58;305;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="TimeOut;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f37;305;45;305;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="ExecuteSQL;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;237;2;298;;;;vpos;;v;;r;;d1,238;;b0,0;;maStatement;;pMaxRows;;p">
+					<treenode node="aStatement;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f21;237;32;237;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="MaxRows;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f34;237;42;237;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="GetColumnsOfTable;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;174;2;229;;;;vpos;;v;;r;;d1,175;;b0,0;;mTableName;;p">
+					<treenode node="TableName;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f28;174;38;174;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="GetDatabaseList;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;331;2;349;;;;vpos;;v;;r;;d1,332;;b0,0;;m">
+				</treenode>
+				<treenode node="GetParametersOfProcedure;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;231;2;235;;;;vpos;;v;;r;;d1,232;;b0,0;;mProcedureName;;pSchemaName;;pCatalogName;;p">
+					<treenode node="CatalogName;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f64;231;76;231;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ProcedureName;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f35;231;49;231;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="SchemaName;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f51;231;62;231;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="GetPrimaryKeysOfTable;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;351;2;408;;;;vpos;;v;;r;;d1,352;;b0,0;;mTableName;;p">
+					<treenode node="TableName;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f32;351;42;351;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="GetProcedures;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;168;2;172;;;;vpos;;v;;r;;d1,169;;b0,0;;m">
+				</treenode>
+				<treenode node="GetProviderTypes;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;300;2;303;;;;vpos;;v;;r;;d1,301;;b0,0;;m">
+				</treenode>
+				<treenode node="GetTables;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;128;2;160;;;;vpos;;v;;r;;d1,129;;b0,0;;mtable_name;;p">
+					<treenode node="table_name;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f20;128;31;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="GetViews;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;162;2;166;;;;vpos;;v;;r;;d1,163;;b0,0;;m">
+				</treenode>
+				<treenode node="HandleException;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;323;2;329;;;;vpos;;v;;r;;d1,324;;b0,0;;m">
+				</treenode>
+				<treenode node="MySqlConnection;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;63;2;96;;;;vpos;;v;;r;;d1,64;;b0,0;;mConnectionString;;pTimeout;;pHost;;pDB;;pUID;;pPwd;;p">
+					<treenode node="ConnectionString;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f26;63;43;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="DB;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f62;63;65;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="Host;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f55;63;60;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="Pwd;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f73;63;77;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="Timeout;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f45;63;53;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="UID;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f67;63;71;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Open;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;98;2;109;;;;vpos;;v;;r;;d1,99;;b0,0;;m">
+				</treenode>
+				<treenode node="ReturnsResultSet;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;310;2;313;;;;vpos;;v;;r;;d1,311;;b0,0;;mProcedureName;;p">
+					<treenode node="ProcedureName;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f27;310;41;310;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="SupportsProcedure;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;315;2;318;;;;vpos;;v;;r;;d1,316;;b0,0;;m">
+				</treenode>
+				<treenode node="TestOpen;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f1;111;2;114;;;;vpos;;v;;r;;d1,112;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="array_to_json;Php:Function Name;C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php;f0;571;1;627;;;;vpos;;v;;r;;d32,571;;b0,0;;marray;;p">
+				<treenode node="array;Php:Var Name;C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php;f24;571;30;571;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="checkEmail;Php:Function Name;C:\xampp\htdocs\EzTruck\login\functions.php;f0;4;1;7;;;;vpos;;v;;r;;d0,5;;b0,0;;mstr;;p">
+				<treenode node="str;Php:Var Name;C:\xampp\htdocs\EzTruck\login\functions.php;f20;4;24;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="create_error;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f0;18;1;24;;;;vpos;;v;;r;;d50,18;;b0,0;;merror_msg;;pline;;p">
+				<treenode node="error_msg;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f22;18;32;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="line;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f39;18;44;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="KT_ErrorHandler;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f0;16;1;45;;;;vpos;;v;;r;;d62,16;;b0,0;;merrno;;perrstr;;perrfile;;perrline;;p">
+				<treenode node="errfile;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f42;16;50;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="errline;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f52;16;60;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="errno;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f25;16;31;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="errstr;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f33;16;40;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="log_messages;Php:Function Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f0;4;1;17;;;;vpos;;v;;r;;d37,4;;b0,0;;merror_message;;p">
+				<treenode node="error_message;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f22;4;36;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="send_mail;Php:Function Name;C:\xampp\htdocs\EzTruck\login\functions.php;f0;10;1;21;;;;vpos;;v;;r;;d0,11;;b0,0;;mfrom;;pto;;psubject;;pbody;;p">
+				<treenode node="body;Php:Var Name;C:\xampp\htdocs\EzTruck\login\functions.php;f38;10;43;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="from;Php:Var Name;C:\xampp\htdocs\EzTruck\login\functions.php;f19;10;24;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="subject;Php:Var Name;C:\xampp\htdocs\EzTruck\login\functions.php;f29;10;37;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="to;Php:Var Name;C:\xampp\htdocs\EzTruck\login\functions.php;f25;10;28;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="_COOKIE;Php:Var Name;C:\xampp\htdocs\EzTruck\login\demo.php;f29;17;37;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_GET;Php:Var Name;C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php;f16;2;21;2;;C:\xampp\htdocs\EzTruck\login\demo.php;f9;29;14;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_POST;Php:Var Name;C:\xampp\htdocs\EzTruck\popup-window\index.php;f17;43;23;43;;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f12;2;18;2;;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f8;28;14;28;;C:\xampp\htdocs\EzTruck\login\demo.php;f3;38;9;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_REQUEST;Php:Var Name;C:\xampp\htdocs\EzTruck\popup-window\index.php;f81;47;90;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_SERVER;Php:Var Name;C:\xampp\htdocs\EzTruck\popup-window\index.php;f92;47;100;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_SESSION;Php:Var Name;C:\xampp\htdocs\EzTruck\login\registered.php;f4;29;13;29;;C:\xampp\htdocs\EzTruck\ajax_login\logout.php;f6;2;15;2;;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f3;12;12;12;;C:\xampp\htdocs\EzTruck\ajax_login\index.php;f20;46;29;46;;C:\xampp\htdocs\EzTruck\login\demo.php;f3;17;12;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="acceptCharsetHeader;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f1;48;21;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="admin;Php:Var Name;C:\xampp\htdocs\EzTruck\createdb.php;f1;85;7;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="answer;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f3;79;10;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="body;Php:Var Name;C:\xampp\htdocs\EzTruck\popup-window\index.php;f0;52;5;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="connect;Php:Var Name;C:\xampp\htdocs\EzTruck\dbconn.php;f0;7;8;7;;C:\xampp\htdocs\EzTruck\instal\dbconn.php;f0;7;8;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="cust;Php:Var Name;C:\xampp\htdocs\EzTruck\createdb.php;f1;141;6;141;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="database_myconn;Php:Var Name;C:\xampp\htdocs\EzTruck\Connections\myconn.php;f0;5;16;5;;C:\xampp\htdocs\EzTruck\header.php;f16;2;32;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="date;Php:Var Name;C:\xampp\htdocs\EzTruck\dateadd.php;f3;26;8;26;;C:\xampp\htdocs\EzTruck\dateaddscrpt.php;f3;1;8;1;;C:\xampp\htdocs\EzTruck\index.php;f3;26;8;26;;C:\xampp\htdocs\EzTruck\date add.php;f3;26;8;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="date_add;Php:Var Name;C:\xampp\htdocs\EzTruck\dateadd.php;f3;30;12;30;;C:\xampp\htdocs\EzTruck\dateaddscrpt.php;f3;5;12;5;;C:\xampp\htdocs\EzTruck\index.php;f3;30;12;30;;C:\xampp\htdocs\EzTruck\date add.php;f3;30;12;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="day;Php:Var Name;C:\xampp\htdocs\EzTruck\dateadd.php;f3;29;7;29;;C:\xampp\htdocs\EzTruck\dateaddscrpt.php;f3;4;7;4;;C:\xampp\htdocs\EzTruck\index.php;f3;29;7;29;;C:\xampp\htdocs\EzTruck\date add.php;f3;29;7;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_database;Php:Var Name;C:\xampp\htdocs\EzTruck\login\connect.php;f0;10;12;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_host;Php:Var Name;C:\xampp\htdocs\EzTruck\login\connect.php;f0;7;8;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_pass;Php:Var Name;C:\xampp\htdocs\EzTruck\login\connect.php;f0;9;8;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_user;Php:Var Name;C:\xampp\htdocs\EzTruck\login\connect.php;f0;8;8;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="dbname;Php:Var Name;Codelobster1.php;f0;4;7;4;;C:\xampp\htdocs\EzTruck\instal\dbconn.php;f0;10;7;10;;C:\xampp\htdocs\EzTruck\instal\index.php;f22;12;29;12;;C:\xampp\htdocs\EzTruck\createdb.php;f0;4;7;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="debug_to_file;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f4;46;18;46;;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f0;2;14;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="err;Php:Var Name;C:\xampp\htdocs\EzTruck\login\demo.php;f1;42;5;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="error;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f77;62;83;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="filename;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f4;4;13;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="head;Php:Var Name;C:\xampp\htdocs\EzTruck\popup-window\index.php;f0;51;5;51;;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f1;50;6;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="host;Php:Var Name;C:\xampp\htdocs\EzTruck\dbconn.php;f0;3;5;3;;C:\xampp\htdocs\EzTruck\instal\dbconn.php;f0;3;5;3;;C:\xampp\htdocs\EzTruck\instal\index.php;f18;6;23;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="hostname_myconn;Php:Var Name;C:\xampp\htdocs\EzTruck\Connections\myconn.php;f0;4;16;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="id;Php:Var Name;C:\xampp\htdocs\EzTruck\popup-window\index.php;f0;47;3;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="items;Php:Var Name;C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php;f0;4;6;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="kary;Php:Var Name;C:\xampp\htdocs\EzTruck\createdb.php;f1;96;6;96;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="key;Php:Var Name;C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php;f19;630;23;630;;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f18;28;22;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="license;Php:Var Name;C:\xampp\htdocs\EzTruck\header.php;f0;10;8;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="line;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f36;23;41;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="line_num;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f23;23;32;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="lines;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f4;21;10;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="link;Php:Var Name;C:\xampp\htdocs\EzTruck\login\connect.php;f0;16;5;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="myconn;Php:Var Name;C:\xampp\htdocs\EzTruck\Connections\myconn.php;f0;8;7;8;;C:\xampp\htdocs\EzTruck\header.php;f34;2;41;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="mysql_database;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f4;12;19;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="mysql_host;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f4;6;15;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="mysql_password;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f4;10;19;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="mysql_username;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f4;8;19;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="mysqli;Php:Var Name;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f0;4;7;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="num_row;Php:Var Name;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f0;8;8;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="oConn;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f1;60;7;60;;;;vposMySqlConnection;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="old_error_handler;Php:Var Name;C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php;f2;47;20;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="pass;Php:Var Name;C:\xampp\htdocs\EzTruck\dbconn.php;f0;5;5;5;;C:\xampp\htdocs\EzTruck\instal\dbconn.php;f0;5;5;5;;C:\xampp\htdocs\EzTruck\instal\index.php;f22;10;27;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="password;Php:Var Name;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f0;3;9;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="password_myconn;Php:Var Name;C:\xampp\htdocs\EzTruck\Connections\myconn.php;f0;7;16;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="q;Php:Var Name;C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php;f0;2;2;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="query;Php:Var Name;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f0;6;6;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="query_license;Php:Var Name;C:\xampp\htdocs\EzTruck\header.php;f0;9;14;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="query_VERSION;Php:Var Name;C:\xampp\htdocs\EzTruck\header.php;f0;3;14;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="result;Php:Var Name;C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php;f0;629;7;629;;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f0;7;7;7;;C:\xampp\htdocs\EzTruck\createdb.php;f2;75;9;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="row;Php:Var Name;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f2;9;6;9;;C:\xampp\htdocs\EzTruck\login\demo.php;f2;57;6;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="row_license;Php:Var Name;C:\xampp\htdocs\EzTruck\header.php;f0;11;12;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="row_VERSION;Php:Var Name;C:\xampp\htdocs\EzTruck\header.php;f0;5;12;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="script;Php:Var Name;C:\xampp\htdocs\EzTruck\login\demo.php;f0;81;7;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="templine;Php:Var Name;C:\xampp\htdocs\EzTruck\instal\index.php;f4;19;13;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="totalRows_license;Php:Var Name;C:\xampp\htdocs\EzTruck\header.php;f0;12;18;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="totalRows_VERSION;Php:Var Name;C:\xampp\htdocs\EzTruck\header.php;f0;6;18;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="url;Php:Var Name;C:\xampp\htdocs\EzTruck\popup-window\index.php;f0;49;4;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="user;Php:Var Name;C:\xampp\htdocs\EzTruck\dbconn.php;f0;4;5;4;;C:\xampp\htdocs\EzTruck\instal\dbconn.php;f0;4;5;4;;C:\xampp\htdocs\EzTruck\instal\index.php;f22;8;27;8;;C:\xampp\htdocs\EzTruck\createdb.php;f1;35;6;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="username;Php:Var Name;C:\xampp\htdocs\EzTruck\ajax_login\login.php;f0;2;9;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="username_myconn;Php:Var Name;C:\xampp\htdocs\EzTruck\Connections\myconn.php;f0;6;16;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="value;Php:Var Name;C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php;f25;630;31;630;;C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php;f24;28;30;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="VERSION;Php:Var Name;C:\xampp\htdocs\EzTruck\header.php;f0;4;8;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<file name="C:\xampp\htdocs\EzTruck\Eztruck.clpprj" crc="-1983915384"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\js\jquery-ui-1.8.20.custom.min.js" crc="-36235575"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\js\jquery-1.7.2.min.js" crc="-307001257"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\js\jquery-1.3.2.js" crc="1040490395"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.widget.min.js" crc="1503804098"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.tabs.min.js" crc="-816866737"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.sortable.min.js" crc="-1665358217"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.slider.min.js" crc="-1407965392"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.selectable.min.js" crc="-655150378"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.resizable.min.js" crc="1322017537"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.progressbar.min.js" crc="-420697381"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.position.min.js" crc="-1713893123"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.mouse.min.js" crc="184342218"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.droppable.min.js" crc="-530482620"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.draggable.min.js" crc="-222734238"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.dialog.min.js" crc="-1168450150"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.datepicker.min.js" crc="-724520626"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.core.min.js" crc="-1399650972"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.button.min.js" crc="1420497592"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.autocomplete.min.js" crc="-1159706303"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.ui.accordion.min.js" crc="-799005366"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.transfer.min.js" crc="827966589"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.slide.min.js" crc="1119053562"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.shake.min.js" crc="-1357103535"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.scale.min.js" crc="-1442716260"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.pulsate.min.js" crc="1945664748"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.highlight.min.js" crc="-716963186"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.fold.min.js" crc="446558834"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.fade.min.js" crc="677347384"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.explode.min.js" crc="-545774507"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.drop.min.js" crc="-542068417"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.core.min.js" crc="-212087531"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.clip.min.js" crc="997267449"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.bounce.min.js" crc="-1949728274"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\minified\jquery.effects.blind.min.js" crc="-1658038351"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-zh-TW.js" crc="1717613343"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-zh-HK.js" crc="1860533120"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-zh-CN.js" crc="46739331"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-vi.js" crc="-718287338"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-uk.js" crc="-243969205"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-tr.js" crc="1672606378"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-tj.js" crc="-131331479"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-th.js" crc="-279951032"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ta.js" crc="-1454875201"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-sv.js" crc="-332359855"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-sr.js" crc="-1794912686"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-sr-SR.js" crc="-939202421"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-sq.js" crc="153049458"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-sl.js" crc="-128788523"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-sk.js" crc="1640659407"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ru.js" crc="-773782936"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ro.js" crc="-1420503751"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-rm.js" crc="521013830"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-pt.js" crc="-133606674"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-pt-BR.js" crc="1010293760"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-pl.js" crc="-569426632"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-no.js" crc="-1552028723"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-nl.js" crc="1263117148"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-nl-BE.js" crc="638226339"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ms.js" crc="1345069083"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ml.js" crc="320361497"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-mk.js" crc="191866990"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-lv.js" crc="363684278"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-lt.js" crc="1737001044"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-lb.js" crc="-1142116767"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ko.js" crc="1208577024"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-km.js" crc="248508102"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-kk.js" crc="236348601"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ja.js" crc="-386339061"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-it.js" crc="-402748271"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-is.js" crc="-745041231"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-id.js" crc="-1865057527"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-hy.js" crc="-2039638006"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-hu.js" crc="-1845286454"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-hr.js" crc="1035744341"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-hi.js" crc="-394807771"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-he.js" crc="-1042054963"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-gl.js" crc="761236138"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ge.js" crc="1670376817"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-fr.js" crc="-1695264426"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-fr-CH.js" crc="1342046404"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-fo.js" crc="472633243"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-fi.js" crc="-2027855252"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-fa.js" crc="2035868705"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-eu.js" crc="-1840428520"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-et.js" crc="-569469707"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-es.js" crc="432516300"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-eo.js" crc="-348537884"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-en-NZ.js" crc="-1479647529"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-en-GB.js" crc="-387483188"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-en-AU.js" crc="-221468591"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-el.js" crc="-1509557663"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-de.js" crc="387753404"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-da.js" crc="1032096011"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-cy-GB.js" crc="641903226"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-cs.js" crc="-1918816751"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ca.js" crc="-1352971548"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-bs.js" crc="1345622549"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-bg.js" crc="1672802652"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-az.js" crc="-1055865496"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ar.js" crc="846986664"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-ar-DZ.js" crc="-816728923"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery.ui.datepicker-af.js" crc="-1937222283"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\i18n\jquery-ui-i18n.js" crc="1775523953"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.widget.js" crc="-406237656"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.tabs.js" crc="-472681521"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.sortable.js" crc="-1502249838"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.slider.js" crc="-25847829"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.selectable.js" crc="-109312296"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.resizable.js" crc="1696443557"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.progressbar.js" crc="-1808515016"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.position.js" crc="-2100889483"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.mouse.js" crc="1545458477"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.droppable.js" crc="1731780971"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.draggable.js" crc="-1887893837"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.dialog.js" crc="908099366"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.datepicker.js" crc="-1239300350"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.core.js" crc="565117249"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.button.js" crc="-2136423768"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.autocomplete.js" crc="-379885993"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.ui.accordion.js" crc="-1422860769"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.transfer.js" crc="-343598514"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.slide.js" crc="-1189672656"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.shake.js" crc="-435467461"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.scale.js" crc="-958078366"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.pulsate.js" crc="1381356027"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.highlight.js" crc="-1727114804"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.fold.js" crc="-175586049"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.fade.js" crc="1342142773"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.explode.js" crc="-340947005"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.drop.js" crc="-349892523"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.core.js" crc="-2086765388"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.clip.js" crc="-1288094957"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.bounce.js" crc="-1669244006"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery.effects.blind.js" crc="-776992442"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\ui\jquery-ui-1.8.20.custom.js" crc="215340609"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\external\qunit.js" crc="1264774873"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\external\jquery.metadata.js" crc="1786566739"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\external\jquery.cookie.js" crc="-2067895476"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\external\jquery.bgiframe-2.1.2.js" crc="1305236470"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\toggleClass.html" crc="150170233"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\toggle.html" crc="1950960807"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\tabs.html" crc="1273870951"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\switchClass.html" crc="658333415"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\sortable.html" crc="-1777521847"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\slider.html" crc="-115303217"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\show.html" crc="502719928"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\selectable.html" crc="1640270911"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\resizable.html" crc="-1236476525"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\removeClass.html" crc="-1900678976"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\progressbar.html" crc="-1459581405"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\position.html" crc="1150245572"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\hide.html" crc="1621497302"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\effect.html" crc="2099114121"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\droppable.html" crc="-1503721663"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\draggable.html" crc="625882319"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\dialog.html" crc="-940266592"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\datepicker.html" crc="1538529137"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\button.html" crc="1452341456"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\autocomplete.html" crc="2106244967"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\animate.html" crc="-804096586"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\addClass.html" crc="-2143982123"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\docs\accordion.html" crc="-1849062028"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\toggleClass\index.html" crc="-396007658"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\toggleClass\default.html" crc="1269073140"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\toggle\index.html" crc="-396007658"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\toggle\default.html" crc="711401877"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\ajax\content4-broken.php" crc="-533657629"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\ajax\content3-slow.php" crc="-1516398752"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\ajax\content2.html" crc="1667519845"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\ajax\content1.html" crc="-1828195255"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\vertical.html" crc="-1204647452"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\sortable.html" crc="1762949217"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\mouseover.html" crc="-1684637966"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\manipulation.html" crc="-123364663"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\index.html" crc="-1638428418"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\default.html" crc="-397103928"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\cookie.html" crc="333479565"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\collapsible.html" crc="429502049"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\bottom.html" crc="-994172847"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\tabs\ajax.html" crc="-1014085509"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\switchClass\index.html" crc="-396007658"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\switchClass\default.html" crc="-705243749"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\portlets.html" crc="1412183882"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\placeholder.html" crc="-894832612"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\items.html" crc="2032273668"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\index.html" crc="-1484960014"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\empty-lists.html" crc="-358841557"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\display-grid.html" crc="1788566610"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\delay-start.html" crc="1773535911"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\default.html" crc="-1559254361"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\connect-lists.html" crc="-1591166941"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\sortable\connect-lists-through-tabs.html" crc="737489435"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\tabs.html" crc="736970537"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\steps.html" crc="1997293561"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\slider-vertical.html" crc="814170513"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\side-scroll.html" crc="-1668697942"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\rangemin.html" crc="818915802"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\rangemax.html" crc="-377522018"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\range.html" crc="-1403684319"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\range-vertical.html" crc="1287461822"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\multiple-vertical.html" crc="797107165"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\index.html" crc="-647822316"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\hotelrooms.html" crc="-1924796250"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\default.html" crc="1651006122"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\slider\colorpicker.html" crc="-345073252"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\show\index.html" crc="-396007658"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\show\default.html" crc="-261274575"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\selectable\serialize.html" crc="1189140127"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\selectable\index.html" crc="1451069539"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\selectable\display-grid.html" crc="1365402520"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\selectable\default.html" crc="-1087038896"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\visual-feedback.html" crc="1471356736"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\textarea.html" crc="1916671642"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\synchronous-resize.html" crc="-1627083123"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\snap-to-grid.html" crc="869855936"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\max-min.html" crc="386578197"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\index.html" crc="-1031893324"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\helper.html" crc="-1764068177"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\delay-start.html" crc="732596778"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\default.html" crc="1013909569"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\constrain-area.html" crc="-1776753029"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\aspect-ratio.html" crc="37600722"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\resizable\animate.html" crc="397742455"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\removeClass\index.html" crc="-396007658"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\removeClass\default.html" crc="-1054344624"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\progressbar\resize.html" crc="-1335601716"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\progressbar\index.html" crc="1154752454"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\progressbar\default.html" crc="-1939714922"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\progressbar\animated.html" crc="-336727299"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\position\index.html" crc="1961287225"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\position\default.html" crc="-541712072"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\position\cycler.html" crc="-78822847"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\hide\index.html" crc="-396007658"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\hide\default.html" crc="90004276"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\effect\index.html" crc="-1434788926"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\effect\easing.html" crc="-1468788195"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\effect\default.html" crc="650201649"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\droppable\visual-feedback.html" crc="-1709063385"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\droppable\shopping-cart.html" crc="1711875043"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\droppable\revert.html" crc="312744245"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\droppable\propagation.html" crc="-1699230341"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\droppable\photo-manager.html" crc="-1521535750"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\droppable\index.html" crc="-1820360180"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\droppable\default.html" crc="-203503411"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\droppable\accepted-elements.html" crc="-615109140"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\visual-feedback.html" crc="428964770"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\sortable.html" crc="-1504391666"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\snap-to.html" crc="-1794374070"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\scroll.html" crc="-511265829"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\revert.html" crc="-1249777528"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\index.html" crc="-821570719"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\handle.html" crc="-176456497"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\events.html" crc="-1001552076"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\delay-start.html" crc="470066046"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\default.html" crc="-1093157743"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\cursor-style.html" crc="677460723"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\draggable\constrain-movement.html" crc="-586803686"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\dialog\modal.html" crc="-1435793949"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\dialog\modal-message.html" crc="-1071249853"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\dialog\modal-form.html" crc="-2104622051"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\dialog\modal-confirmation.html" crc="-1217546713"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\dialog\index.html" crc="-735335698"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\dialog\default.html" crc="-1445296724"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\dialog\animated.html" crc="-90312922"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\show-week.html" crc="-258622994"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\other-months.html" crc="1860411372"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\multiple-calendars.html" crc="1785120079"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\min-max.html" crc="354301673"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\localization.html" crc="2033747583"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\inline.html" crc="1124248722"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\index.html" crc="-1512404981"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\icon-trigger.html" crc="221444932"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\dropdown-month-year.html" crc="1996286219"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\default.html" crc="-1658476972"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\date-range.html" crc="2024230935"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\date-formats.html" crc="1505500467"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\buttonbar.html" crc="-1464546853"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\animation.html" crc="1894052149"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\datepicker\alt-field.html" crc="535630533"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\button\toolbar.html" crc="-1114059856"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\button\splitbutton.html" crc="2005922730"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\button\radio.html" crc="55335064"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\button\index.html" crc="-259090238"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\button\icons.html" crc="355513096"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\button\default.html" crc="-1316625713"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\button\checkbox.html" crc="-56271576"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\xml.html" crc="-719053082"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\search.php" crc="-659078842"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\remote.html" crc="-1427427860"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\remote-with-cache.html" crc="464245061"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\remote-jsonp.html" crc="932681401"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\multiple.html" crc="2075813251"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\multiple-remote.html" crc="928077283"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\maxheight.html" crc="139240598"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\london.xml" crc="-1351493472"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\index.html" crc="1675095862"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\folding.html" crc="-487266091"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\default.html" crc="651110541"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\custom-data.html" crc="107448511"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\combobox.html" crc="1784931327"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\autocomplete\categories.html" crc="1342622063"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\animate\index.html" crc="-396007658"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\animate\default.html" crc="-559992801"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\addClass\index.html" crc="-396007658"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\addClass\default.html" crc="1469566912"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\sortable.html" crc="-1708661805"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\no-auto-height.html" crc="-1354019932"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\mouseover.html" crc="902823738"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\index.html" crc="-1090854150"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\hoverintent.html" crc="51192460"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\fillspace.html" crc="546476290"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\default.html" crc="-1418080587"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\custom-icons.html" crc="-2055699419"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\accordion\collapsible.html" crc="-1500169866"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\demos\index.html" crc="-1696245503"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\MIT-LICENSE.txt" crc="-1234174050"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\jquery-1.7.2.js" crc="-666358301"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\GPL-LICENSE.txt" crc="-762967200"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\development-bundle\AUTHORS.txt" crc="-1147798558"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\jquery-ui-1.8.20.custom.min.js" crc="-36235575"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\jquery-1.7.2.min.js" crc="-307001257"/>
+		<file name="C:\xampp\htdocs\EzTruck\ui\index.html" crc="-576961270"/>
+		<file name="C:\xampp\htdocs\EzTruck\popup-window\templates\head.html" crc="-1862630464"/>
+		<file name="C:\xampp\htdocs\EzTruck\popup-window\templates\body.html" crc="637645715"/>
+		<file name="C:\xampp\htdocs\EzTruck\popup-window\jquery\jquery.js" crc="-248691372"/>
+		<file name="C:\xampp\htdocs\EzTruck\popup-window\readme.txt" crc="2132656192"/>
+		<file name="C:\xampp\htdocs\EzTruck\popup-window\popup-window.js" crc="-382006338"/>
+		<file name="C:\xampp\htdocs\EzTruck\popup-window\license.txt" crc="-1174256370"/>
+		<file name="C:\xampp\htdocs\EzTruck\popup-window\index.php" crc="286259977"/>
+		<file name="C:\xampp\htdocs\EzTruck\menu\js\jquery.dropdownPlain.js" crc="224326038"/>
+		<file name="C:\xampp\htdocs\EzTruck\menu\js\jquery.dropdown.js" crc="-702776143"/>
+		<file name="C:\xampp\htdocs\EzTruck\menu\js\jquery-1.3.1.min.js" crc="907032096"/>
+		<file name="C:\xampp\htdocs\EzTruck\menu\js\hoverIntent.js" crc="1281491414"/>
+		<file name="C:\xampp\htdocs\EzTruck\login\login_panel\js\pngfix\supersleight-min.js" crc="2052955334"/>
+		<file name="C:\xampp\htdocs\EzTruck\login\login_panel\js\slide.js" crc="-1994605975"/>
+		<file name="C:\xampp\htdocs\EzTruck\login\table.sql" crc="-345135426"/>
+		<file name="C:\xampp\htdocs\EzTruck\login\registered.php" crc="387955740"/>
+		<file name="C:\xampp\htdocs\EzTruck\login\functions.php" crc="1119550739"/>
+		<file name="C:\xampp\htdocs\EzTruck\login\demo.php" crc="2062871893"/>
+		<file name="C:\xampp\htdocs\EzTruck\login\connect.php" crc="-391272749"/>
+		<file name="C:\xampp\htdocs\EzTruck\instal\_notes\dwsync.xml" crc="-1269535154"/>
+		<file name="C:\xampp\htdocs\EzTruck\instal\index.php" crc="1928812209"/>
+		<file name="C:\xampp\htdocs\EzTruck\instal\eztruck.sql" crc="111243814"/>
+		<file name="C:\xampp\htdocs\EzTruck\instal\dbconn.php" crc="18433108"/>
+		<file name="C:\xampp\htdocs\EzTruck\data\index.php" crc="-376147869"/>
+		<file name="C:\xampp\htdocs\EzTruck\Connections\myconn.php" crc="-1669984310"/>
+		<file name="C:\xampp\htdocs\EzTruck\ajax_login\logout.php" crc="2021761219"/>
+		<file name="C:\xampp\htdocs\EzTruck\ajax_login\login.php" crc="-320757724"/>
+		<file name="C:\xampp\htdocs\EzTruck\ajax_login\jquery.js" crc="201919439"/>
+		<file name="C:\xampp\htdocs\EzTruck\ajax_login\index.php" crc="-1174990176"/>
+		<file name="C:\xampp\htdocs\EzTruck\_mmServerScripts\_notes\dwsync.xml" crc="697035273"/>
+		<file name="C:\xampp\htdocs\EzTruck\_mmServerScripts\mysql.php" crc="692479494"/>
+		<file name="C:\xampp\htdocs\EzTruck\_mmServerScripts\MMHTTPDB.php" crc="-1873614124"/>
+		<file name="C:\xampp\htdocs\EzTruck\register.php" crc="-1369571171"/>
+		<file name="C:\xampp\htdocs\EzTruck\master.php" crc="299645864"/>
+		<file name="C:\xampp\htdocs\EzTruck\index.php" crc="1331035229"/>
+		<file name="C:\xampp\htdocs\EzTruck\header.php" crc="-643058042"/>
+		<file name="C:\xampp\htdocs\EzTruck\footer.php" crc="1974800718"/>
+		<file name="C:\xampp\htdocs\EzTruck\dbconn.php" crc="-78098937"/>
+		<file name="C:\xampp\htdocs\EzTruck\datepick.php" crc="1077334794"/>
+		<file name="C:\xampp\htdocs\EzTruck\datepick.html" crc="1068129775"/>
+		<file name="C:\xampp\htdocs\EzTruck\dateaddscrpt.php" crc="77087588"/>
+		<file name="C:\xampp\htdocs\EzTruck\dateadd.php" crc="-968933784"/>
+		<file name="C:\xampp\htdocs\EzTruck\date add.php" crc="-968933784"/>
+		<file name="C:\xampp\htdocs\EzTruck\createdb.php" crc="862669069"/>
+	</codestructure><cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><smartyassings>
+	</smartyassings></project>

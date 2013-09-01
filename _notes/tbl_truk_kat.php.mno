@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_trukkat" value="name:truk_kategori_id;datatype:int,name:truk_kategori_name;datatype:string,name:truk_kategori_desc;datatype:string" />
+</info>

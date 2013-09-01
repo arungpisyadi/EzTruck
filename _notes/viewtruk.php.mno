@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_truk" value="name:truk_id;datatype:int,name:truk_merk;datatype:string,name:truk_tipe;datatype:string,name:truk_no_polisi;datatype:string,name:truk_no_rangka;datatype:string,name:truk_no_mesin;datatype:string,name:truk_ins;datatype:string,name:truk_no_ins;datatype:string,name:truk_ins_jtempo;datatype:string,name:truk_kat;datatype:string" />
+	<infoitem key="UD_VERSION" value="name:main_version;datatype:int,name:sub_version;datatype:int,name:ch_version;datatype:int" />
+	<infoitem key="UD_license" value="name:idlicense;datatype:int,name:customer;datatype:string,name:ser_no;datatype:string,name:type;datatype:string" />
+	<infoitem key="UD_company" value="name:company_name;datatype:string,name:company_telp_1;datatype:string,name:company_email;datatype:string,name:company_website;datatype:string" />
+</info>

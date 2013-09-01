@@ -1,0 +1,98 @@
+#container {
+	position: fixed;
+	width: 1280px;
+	margin: auto;
+	background-color: #999999;
+	height: 125px;
+	background-image: none;
+	border: thin solid #000000;
+	overflow: visible;
+	visibility: visible;
+	top: 0px;
+	display: table;
+	left: 40px;
+}
+div.imageholder{ /*This will be the holder which will hold our page image(i.e. coffee.jpg) */
+position:absolute;
+width:140px; /*Width of Image*/
+height:120px; /*Height of Image*/
+left:0px; /* This is applied relative to edge of container */
+top:0px;
+}
+div.version{
+	position:absolute;
+	width:368px;
+	height:20px;
+	left:145px;
+	top:0px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #333333;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+	border-left-style: groove;
+}
+div.clocks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(../../Images/clockbg.png);
+	height: 34px;
+	width: 383px;
+	left: 892px;
+	top: 5px;
+	right: auto;
+	bottom: auto;
+	position: absolute;
+}
+div.login {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #666666;
+	background-color: #00CCFF;
+	border: thin groove #000000;
+	text-align: center;
+	width: 316px;
+	height: 74px;
+	position: absolute;
+	left: 962px;
+	top: 47px;
+	z-index: auto;
+}
+div.customer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CCCCCC;
+	width: 673px;
+	position: absolute;
+	height: auto;
+	left: 148px;
+	top: 52px;
+}
+div.menu {
+	position: absolute;
+	left: 146px;
+	top: 100px;
+	width: auto;
+	height: 21px;
+	vertical-align: text-bottom;
+}
+div.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	position: absolute;
+	left: 148px;
+	top: 39px;
+}

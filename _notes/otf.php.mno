@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_otf" value="name:truk_id;datatype:int,name:truk_no_polisi;datatype:string,name:kary_nama_1;datatype:string,name:kary_nama_2;datatype:string,name:cust_name;datatype:string,name:order_barang_nama;datatype:string,name:order_barang_jumlah;datatype:string,name:order_barang_satuan;datatype:string,name:truk_status;datatype:string,name:truk_arah;datatype:string,name:truk_cur_act;datatype:string,name:truk_pos;datatype:string,name:truk_kat;datatype:string" />
+</info>
